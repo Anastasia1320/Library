@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp2
 {
-    class Book
+    public class Book
     {
       public string name; 
     }

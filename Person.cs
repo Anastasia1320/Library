@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    class Person
+   public class Person
     {
         public string name;
         public List<Book> takenBooks =new List<Book>();
@@ -22,9 +22,9 @@ namespace WindowsFormsApp2
                 {
                     sb.AppendLine(books.IndexOf(elementbook) + " - " + elementbook.name);
                 }
-                book.name = books[Convert.ToInt32(Microsoft.VisualBasic.Interaction.InputBox(sb.ToString() + " \n Введите индекс книги которую хотите выбрать"))].name;
+                book.name = books[Convert.ToInt32(Microsoft.VisualBasic.Interaction.InputBox(sb.ToString() + " \n Введите id книги которую хотите выбрать"))].name;
                 takenBooks.Add(book);
-                isHeTakeBooks = Microsoft.VisualBasic.Interaction.InputBox(" Добавить еще одну? \n Да/Нет");
+                isHeTakeBooks = Microsoft.VisualBasic.Interaction.InputBox(" Добавить еще одну книгу? \n Да/Нет");
             }
            
 

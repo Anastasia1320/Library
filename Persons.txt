@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <name>Ира</name>
+    <takenBooks />
+  </Person>
+  <Person>
+    <name>Настя</name>
+    <takenBooks />
+  </Person>
+  <Person>
+    <name>Денис</name>
+    <takenBooks>
+      <Book>
+        <name>я</name>
+      </Book>
+    </takenBooks>
+  </Person>
+  <Person>
+    <name />
+    <takenBooks />
+  </Person>
+</ArrayOfPerson>
