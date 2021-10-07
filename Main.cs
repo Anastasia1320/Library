@@ -74,7 +74,7 @@ namespace WindowsFormsApp2
             }
             else
             {
-                MessageBox.Show("Пользователей не существует! Добавьте пользователя");
+                MessageBox.Show("Пользователей не существует! Добавьте пользователя!");
             }
         }
 
